@@ -1,4 +1,5 @@
-mood = input("Kako se osjećaš?: ")
+x = input("Kako se osjećaš?: ")
+mood = x.lower()
 if mood == "sretno":
     print("Drago mi je da si sretan!")
 elif mood == "nervozno":
